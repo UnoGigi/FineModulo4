@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamazzon</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleE.css">
+</head>
+
+<body>
+    <header>
+        <h1>MAMAZZON FrontOffice</h1>
+        <div>
+            <button type="button" class="btn btn-primary mx-3 my2" onclick="goBackOffice()">Back Office</button>
+        </div>
+    </header>
+
+    <div class="tutto">
+        <main>
+            <div class="table-container position-absolute">
+                <table class="table" style="width: 65vw;">
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Brand</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                            <th>Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="prodotti-table-body">
+                    </tbody>
+                </table>
+            </div>
+            <button id="btnsu" onclick="topFunction()">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+            </button>
+        </main>
+
+
+        <section id="lato">
+            <aside>
+                <div class="loghilato">
+                    <ion-icon name="add-outline"></ion-icon>
+                    <a href="https://twitter.com/"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
+                </div>
+                <div class="discover">
+                    <p>Discover MAMAZZON on Twitter</p>
+                </div>
+                <button class="asidebutton">
+                    <ion-icon name="logo-twitter" class="twitter"></ion-icon>
+                    <span>Connect to Twitter</span>
+                </button>
+                <div class="barraori">
+                    <a href="#" class="sibarra">Maybe Later</a>
+                </div>
+                <div class="h3">
+                    <h3> © 1996-2023 Mamazzon, Inc. o società affiliate</h3>
+                </div>
+               
+                
+            </aside>
+        </section>
+    </div>
+
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="jsfront.js"></script>
+</body>
+
+
+</html>

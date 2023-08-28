@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleE.css">
+
+    <title>Gestione prodotti</title>
+
+  </head>
+
+  <body>
+    
+    <header>
+      <h1 id="page-title" class="resource-title">MAMAZZON</h1>
+      <button class="btn btn-primary my-2 mx-2" onclick="BO()">Torna indietro</button>
+    </header>
+
+    <div class="compila">
+
+      <form id="user-form" class="" novalidate>
+
+        <input type="hidden" id="prodotto">
+        <div class="mb-3">
+          <label for="name" class="form-label lbl">Nome</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="brand" class="form-label lbl">Brand</label>
+          <input type="text" class="form-control" id="brand" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="Description" class="form-label lbl">Description</label>
+          <input type="text" class="form-control" id="Description" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="image" class="form-label lbl">Image</label>
+          <input type="text" class="form-control" id="image" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label lbl">Price</label>
+            <input type="text" class="form-control" id="price" required>
+        </div>
+
+        <button type="submit" class="btn btn-success mx-3">Salva Nuovo</button>
+
+      </form>
+
+    </div>
+
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="form.js"></script>    
+  </body>
+
+</html>

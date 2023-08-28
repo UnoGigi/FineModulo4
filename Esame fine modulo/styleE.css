@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #CEF4DB;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 8px #131921;
+    position: fixed;
+    width: 100%;
+    background-color: #131921;
+    z-index: 9;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 35px;
+    color: white;
+}
+
+#account {
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 5em;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#account a {
+    color: white;
+    text-decoration: none;
+}
+
+#account:hover {
+    cursor: pointer;
+    background-color: #6a2106;
+}
+
+.tutto {
+    height: 100vh;
+    display: flex;
+}
+
+tr {
+    border-bottom: solid 1px;
+}
+
+main {
+    margin-left: 5em;
+    margin-right: 4em;
+    width: 55%;
+    z-index: 2;
+    margin-top: 8em;
+    height: 100vw;
+    width: 100%;
+}
+
+.compila {
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.lbl {
+    margin-left: 25px;
+}
+
+.imgform {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lato {
+    margin-left: 74em;
+    position: fixed;
+    z-index: 2;
+    top: 3em;
+    border-left: solid 2px #131921;
+    height: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    margin-top: 4.7em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 4em;
+}
+
+.twitter {
+    color: #1DA1F3;
+}
+
+aside div {
+    margin-bottom: 20px;
+}
+
+aside div img {
+    width: 45px;
+}
+
+aside div ion-icon {
+    font-size: 25px;
+}
+
+.loghilato {
+    display: flex;
+    align-items: center;
+}
+
+.discover {
+    font-size: 18px;
+    text-align: center;
+    width: 330px;
+}
+
+.asidebutton {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: solid 1px #C0C0C0;
+    background-color: white;
+}
+
+.asidebutton:hover {
+    cursor: pointer;
+}
+
+.asidebutton ion-icon {
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.sibarra {
+    color: #131921 ;
+    font-size: 13px;
+}
+
+.barraori {
+    text-align: center;
+    padding-bottom: 150px;
+    width: 70%;
+    border-bottom: solid 1px #131921;
+}
+
+.h3 {
+    text-align: center;
+    width: 70%;
+    font-size: 15px;
+}
+
+
+#btnsu {
+    border: solid 1px #131921;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    position: fixed;
+    bottom: 60px;
+    left: 37em;
+    display: none;
+    padding: 5px;
+}
+
+#btnsu ion-icon {
+    display: flex;
+    font-size: 30px;
+    color: red;
+}
+
+.cardpro {
+    padding-top: 1em;
+}
+
+.tuttopro {
+    margin-top: 5em;
+}
